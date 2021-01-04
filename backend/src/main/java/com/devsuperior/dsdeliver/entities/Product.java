@@ -26,10 +26,10 @@ public class Product implements Serializable{
 		
 	}
 
-	public Product(Long id, String nameString, Double price, String description, String imageUri) {
+	public Product(Long id, String name, Double price, String description, String imageUri) {
 		super();
 		this.id = id;
-		this.name = nameString;
+		this.name = name;
 		this.price = price;
 		this.description = description;
 		this.imageUri = imageUri;
@@ -43,12 +43,12 @@ public class Product implements Serializable{
 		this.id = id;
 	}
 
-	public String getNameString() {
+	public String getName() {
 		return name;
 	}
 
-	public void setNameString(String nameString) {
-		this.name = nameString;
+	public void setNameString(String name) {
+		this.name = name;
 	}
 
 	public Double getPrice() {
